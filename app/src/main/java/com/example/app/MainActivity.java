@@ -16,6 +16,13 @@ public class MainActivity extends AppCompatActivity {
     private static final Logger logger = Logger.getLogger(MainActivity.class.getName());
     private TextView resultTextView;
 
+    static {
+        java.util.logging.Handler consoleHandler = new java.util.logging.ConsoleHandler();
+        consoleHandler.setFormatter(new java.util.logging.SimpleFormatter());
+        logger.addHandler(consoleHandler);
+        logger.setUseParentHandlers(false);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,3 +65,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+
