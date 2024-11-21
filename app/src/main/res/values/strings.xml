@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QR Scanner</string>
+    <string name="scan_button">Scan QR Code</string>
+    <string name="scan_prompt">Align the QR code within the frame to scan</string>
+    <string name="scan_cancelled">Scanning cancelled</string>
+    <string name="result_placeholder">Scanned data will appear here</string>
+</resources>
