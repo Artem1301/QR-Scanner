@@ -1,6 +1,0 @@
-<!-- res/values-uk/strings.xml -->
-<string name="app_name">Сканер QR</string>
-<string name="scan_button">Сканувати QR-код</string>
-<string name="result_placeholder">Тут з’явиться результат сканування</string>
-<string name="scan_prompt">Розмістіть QR-код у рамці</string>
-<string name="scan_cancelled">Сканування скасовано</string>

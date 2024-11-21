@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Сканер QR</string>
+    <string name="scan_button">Сканувати QR-код</string>
+    <string name="scan_prompt">Вирівняйте QR-код у рамці для сканування</string>
+    <string name="scan_cancelled">Сканування скасовано</string>
+    <string name="result_placeholder">Відскановані дані тут</string>
+    <string name="change_language">Змінити мову</string>
+    <string name="language_changed">Мову змінено</string>
+</resources>
